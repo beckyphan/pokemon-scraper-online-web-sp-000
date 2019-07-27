@@ -28,16 +28,15 @@ class Pokemon
     self.new(id: id, name: poke_row[0][1], type: poke_row[0][2], db: db, hp: poke_row[0][3])
   end
 
-<<<<<<< HEAD
+
   # def alter_hp(hp, db)
   #   sql = "UPDATE pokemon SET hp = ? WHERE name = ?"
   #   db.execute(sql, id, self.name)
   # end
-=======
-  def alter_hp(hp, db)
-    sql = "UPDATE pokemon SET hp = ? WHERE name = ?"
-    db.execute(sql, id, self.name)
-  end
->>>>>>> 46f4f743b9dc71ba84f023fc29ae9dbfb6516f84
+
+  # def alter_hp(hp, db)
+  #   sql = "UPDATE pokemon SET hp = ? WHERE name = ?"
+  #   db.execute(sql, id, self.name)
+  # end
 
 end
